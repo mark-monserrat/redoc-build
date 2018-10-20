@@ -5804,7 +5804,7 @@ var Group_model_GroupModel = /** @class */ (function () {
     function GroupModel(type, tagOrGroup, parent) {
         this.items = [];
         this.active = false;
-        this.expanded = false;
+        this.expanded = true;
         // markdown headings already have ids calculated as they are needed for heading anchors
         this.id = tagOrGroup.id || type + '/' + safeSlugify(tagOrGroup.name);
         this.type = type;
@@ -6069,7 +6069,7 @@ function getDiscriminator(schema) {
  */
 var Field_FieldModel = /** @class */ (function () {
     function FieldModel(parser, infoOrRef, pointer, options) {
-        this.expanded = false;
+        this.expanded = true;
         var info = parser.deref(infoOrRef);
         this.kind = infoOrRef.kind || 'field';
         this.name = infoOrRef.name || info.name;
@@ -6311,7 +6311,7 @@ var Operation_OperationModel = /** @class */ (function () {
         this.items = [];
         this.ready = true;
         this.active = false;
-        this.expanded = false; //#endregion
+        this.expanded = true; //#endregion
         this.pointer = JsonPointer_JsonPointer.compile(['paths', operationSpec.pathName, operationSpec.httpVerb]);
         this.id = operationSpec.operationId !== undefined ? 'operation/' + operationSpec.operationId : parent !== undefined ? parent.id + this.pointer : this.pointer;
         this.name = getOperationSummary(operationSpec);
