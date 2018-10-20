@@ -20,7 +20,7 @@ export declare class SchemaModel {
     deprecated: boolean;
     pattern?: string;
     example?: any;
-    enum: any[];
+    enum: TemplateStringsArray | any[];
     default?: any;
     readOnly: boolean;
     writeOnly: boolean;

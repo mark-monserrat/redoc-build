@@ -14,7 +14,7 @@ export declare type ExtendedOpenAPIOperation = {
 export declare type TagsInfoMap = Dict<TagInfo>;
 export interface TagGroup {
     name: string;
-    tags: string[];
+    tags: TemplateStringsArray;
 }
 export declare const GROUP_DEPTH = 0;
 export declare type ContentItemModel = GroupModel | OperationModel;

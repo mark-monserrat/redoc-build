@@ -4453,7 +4453,7 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
                 external_react_["createElement"]("br", null),
                 external_react_["createElement"]("small", null,
                     " Commit: ",
-                    "7d37601"));
+                    "f1e1984"));
         }
         return external_react_["Children"].only(this.props.children);
     };
@@ -6959,12 +6959,12 @@ var panels_a;
 
 var MiddlePanel = styled_components.div.withConfig({
     componentId: "sc-6itmo6-0"
-})(["width:calc(100% - ", ");padding:0 ", "px;display:none;", ";"], function (props) { return props.theme.rightPanel.width; }, function (props) { return props.theme.spacing.sectionHorizontal; }, media.lessThan('medium', true)(panels_templateObject_1 || (panels_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n    width: 100%;\n    padding: ", ";\n  "], ["\n    width: 100%;\n    padding: ", ";\n  "])), function (props) { return props.theme.spacing.sectionVertical + "px " + props.theme.spacing.sectionHorizontal + "px"; }));
+})(["width:calc(100% - ", ");padding:0 ", "px;", ";"], function (props) { return props.theme.rightPanel.width; }, function (props) { return props.theme.spacing.sectionHorizontal; }, media.lessThan('medium', true)(panels_templateObject_1 || (panels_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n    width: 100%;\n    padding: ", ";\n  "], ["\n    width: 100%;\n    padding: ", ";\n  "])), function (props) { return props.theme.spacing.sectionVertical + "px " + props.theme.spacing.sectionHorizontal + "px"; }));
 var Section = withProps(styled_components.div.attrs((panels_a = {},
     panels_a[SECTION_ATTR] = function (props) { return props.id; },
-    panels_a)))(panels_templateObject_3 || (panels_templateObject_3 = external_tslib_["__makeTemplateObject"](["\n  padding: ", "px 0 0 0;\n\n  ", "\n  ", "\n"], ["\n  padding: ", "px 0 0 0;\n\n  ",
+    panels_a)))(panels_templateObject_3 || (panels_templateObject_3 = external_tslib_["__makeTemplateObject"](["\n  padding: 0;\n\n  ", "\n  ", "\n"], ["\n  padding: 0;\n\n  ",
     "\n  ",
-    "\n"])), function (props) { return props.theme.spacing.sectionVertical; }, media.lessThan('medium', true)(panels_templateObject_2 || (panels_templateObject_2 = external_tslib_["__makeTemplateObject"](["\n    padding: 0;\n  "], ["\n    padding: 0;\n  "]))), function (props) { return props.underlined && "\n    position: relative;\n\n    &:not(:last-of-type):after {\n      position: absolute;\n      bottom: 0;\n      width: 100%;\n      display: block;\n      content: '';\n      border-bottom: 1px solid rgba(0, 0, 0, 0.2);\n    }\n  " || ''; });
+    "\n"])), media.lessThan('medium', true)(panels_templateObject_2 || (panels_templateObject_2 = external_tslib_["__makeTemplateObject"](["\n    padding: 0;\n  "], ["\n    padding: 0;\n  "]))), function (props) { return props.underlined && "\n    position: relative;\n\n    &:not(:last-of-type):after {\n      position: absolute;\n      bottom: 0;\n      width: 100%;\n      display: block;\n      content: '';\n      border-bottom: 1px solid rgba(0, 0, 0, 0.2);\n    }\n  " || ''; });
 var RightPanel = styled_components.div.withConfig({
     componentId: "sc-6itmo6-1"
 })(["width:", ";color:#fafbfc;background-color:", ";padding:0 ", "px;", ";"], function (props) { return props.theme.rightPanel.width; }, function (props) { return props.theme.rightPanel.backgroundColor; }, function (props) { return props.theme.spacing.sectionHorizontal; }, media.lessThan('medium', true)(templateObject_4 || (templateObject_4 = external_tslib_["__makeTemplateObject"](["\n    width: 100%;\n    padding: ", ";\n  "], ["\n    width: 100%;\n    padding: ", ";\n  "])), function (props) { return props.theme.spacing.sectionVertical + "px " + props.theme.spacing.sectionHorizontal + "px"; }));
