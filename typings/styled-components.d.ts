@@ -5,12 +5,9 @@ export { ResolvedThemeInterface };
 export declare type InterpolationFunction<P> = styledComponents.InterpolationFunction<P>;
 export declare type StyledFunction<T> = styledComponents.ThemedStyledFunction<T, ResolvedThemeInterface>;
 declare function withProps<T, U extends HTMLElement = HTMLElement>(styledFunction: StyledFunction<React.HTMLProps<U>>): StyledFunction<T & React.HTMLProps<U>>;
-declare const styled: styledComponents.ThemedBaseStyledInterface<ResolvedThemeInterface>, css: styledComponents.BaseThemedCssFunction<ResolvedThemeInterface>, createGlobalStyle: {
-    <P = {}>(strings: TemplateStringsArray, ...interpolations: styledComponents.Interpolation<styledComponents.ThemedStyledProps<P, ResolvedThemeInterface>>[]): styledComponents.GlobalStyleClass<P, ResolvedThemeInterface>;
-    <P = {}>(strings: string[] | TemplateStringsArray, ...interpolations: styledComponents.Interpolation<styledComponents.ThemedStyledProps<P, ResolvedThemeInterface>>[]): styledComponents.GlobalStyleClass<P, ResolvedThemeInterface>;
-}, keyframes: {
-    (strings: TemplateStringsArray, ...interpolations: styledComponents.SimpleInterpolation[]): styledComponents.Keyframes;
-    (strings: string[] | TemplateStringsArray, ...interpolations: styledComponents.SimpleInterpolation[]): styledComponents.Keyframes;
+declare const styled: styledComponents.ThemedBaseStyledInterface<ResolvedThemeInterface>, css: styledComponents.ThemedCssFunction<ResolvedThemeInterface>, createGlobalStyle: <P = {}>(strings: string[] | TemplateStringsArray, ...interpolations: styledComponents.Interpolation<styledComponents.ThemedStyledProps<P, ResolvedThemeInterface>>[]) => any, keyframes: {
+    (strings: TemplateStringsArray, ...interpolations: styledComponents.SimpleInterpolation[]): string;
+    (strings: string[] | TemplateStringsArray, ...interpolations: styledComponents.SimpleInterpolation[]): any;
 }, ThemeProvider: React.ComponentClass<styledComponents.ThemeProviderProps<ResolvedThemeInterface>, any>;
 export declare const media: {
     lessThan(breakpoint: any, print?: boolean | undefined): (...args: any[]) => styledComponents.FlattenInterpolation<styledComponents.ThemeProps<ResolvedThemeInterface>>[];

@@ -9,5 +9,7 @@ export interface DropdownProps {
     onChange: (val: DropdownOption) => void;
 }
 export declare const StyledDropdown: StyledComponentClass<any, DropdownProps, any>;
-export declare const SimpleDropdown: StyledComponentClass<any, import("../theme").ResolvedThemeInterface, any>;
+export declare const SimpleDropdown: StyledComponentClass<any, import("../theme").ResolvedThemeInterface, Pick<any, string | number> & {
+    theme?: import("../theme").ResolvedThemeInterface | undefined;
+}>;
 export declare const MimeLabel: StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, import("../theme").ResolvedThemeInterface, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>>;
