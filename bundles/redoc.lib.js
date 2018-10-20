@@ -8585,7 +8585,7 @@ var Schema_Schema = /** @class */ (function (_super) {
             externalDocs: schema.externalDocs,
             deprecated: false,
             toggle: function () { return null; },
-            expanded: type === 'object' ? true : false
+            expanded: true
         }; // cast needed for hot-loader to not fail
         return external_react_["createElement"]("div", null,
             external_react_["createElement"](FieldDetails_FieldDetails, { field: field }));
