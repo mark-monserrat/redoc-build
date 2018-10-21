@@ -4464,11 +4464,11 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
 // CONCATENATED MODULE: ./src/components/Loading/Spinner.svg.tsx
 
 
-var _Spinner = function (props) { return external_react_["createElement"]("svg", { className: props.className, width: "175px", height: "80px", viewBox: "0 0 80 20", version: "1.1" },
+var _Spinner = function (props) { return external_react_["createElement"]("svg", { className: props.className, width: "145px", height: "60px", viewBox: "0 0 80 20", version: "1.1" },
     external_react_["createElement"]("defs", null,
         external_react_["createElement"]("clipPath", { id: "pulse" },
             external_react_["createElement"]("path", { d: "M24.1998083,11.8719806 C18.8569637,11.8719806 5.4943128,11.8719806 0,11.8719806 C0,5.31526677 5.41731162,0 12.0999042,0 C18.7824967,0 24.1998083,5.31526677 24.1998083,11.8719806 Z M18.850377,11.8407386 C18.850377,8.20003692 15.8423434,5.24866511 12.131746,5.24866511 C8.42114857,5.24866511 5.41311502,8.20003692 5.41311502,11.8407386 C8.36866497,11.8407386 15.9066811,11.8407386 18.850377,11.8407386 Z" }))),
-    external_react_["createElement"]("g", { id: "Page-1", stroke: "none", "stroke-width": "1", fill: "none", "fill-rule": "evenodd", transform: "translate(2, 0.000000)" },
+    external_react_["createElement"]("g", { id: "Page-1", stroke: "none", "stroke-width": "1", fill: "none", "fill-rule": "evenodd", transform: "translate(2, -3)" },
         external_react_["createElement"]("g", { id: "api_lab" },
             external_react_["createElement"]("g", { id: "Logo" },
                 external_react_["createElement"]("g", { id: "gear", transform: "translate(46.603774, 0.000000)", "clip-path": "url(#pulse)" },
@@ -4481,7 +4481,7 @@ var _Spinner = function (props) { return external_react_["createElement"]("svg",
                         external_react_["createElement"]("ellipse", { id: "Oval-2", cx: "5.0366386", cy: "5.07126998", rx: "2.32858182", ry: "2.29997673" }))))))); };
 var Spinner = styled_components(_Spinner).withConfig({
     componentId: "sc-8xfcsx-0"
-})(["#rotating-gear{animation:rotate 5s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}@keyframes rotate{0%{-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}100%{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}}"]);
+})(["margin:auto;&  #rotating-gear{animation:rotate 5s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}@keyframes rotate{0%{-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}100%{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}}"]);
 
 // CONCATENATED MODULE: ./src/components/Loading/Loading.tsx
 
@@ -4494,6 +4494,8 @@ var Loading_Loading = /** @class */ (function (_super) {
     }
     Loading.prototype.render = function () {
         return external_react_["createElement"]("div", { style: {
+                height: '100vh',
+                width: '100%',
                 textAlign: 'center',
                 display: 'flex',
                 flexDirection: 'column',
@@ -7270,7 +7272,7 @@ var external_react_tabs_ = __webpack_require__(9);
 
 var Tabs = styled_components(external_react_tabs_["Tabs"]).withConfig({
     componentId: "sc-1vrf7wa-0"
-})(["> ul{list-style:none;padding:0;margin:5px;text-align:center;> li{padding:5px 10px;display:inline-block;background-color:rgba(0,0,0,0.2);border-bottom:1px solid rgba(0,0,0,0.5);cursor:pointer;text-align:center;outline:none;color:#ccc;margin:5px;border:1px solid #181f22;border-radius:4px;min-width:60px;font-size:0.9em;font-weight:bold;&:first-child{margin:5px 0;border-top-right-radius:0;border-bottom-right-radius:0;}&:last-child{margin:5px 0;border-top-left-radius:0;border-bottom-left-radius:0;}&:not(:last-child) not(:first-child){margin:5px 0;border-radius:0;}&.react-tabs__tab--selected{color:", ";background:rgba(255,255,255,0.7);}&:only-child{flex:none;min-width:100px;margin:5px;border-radius:4px;}&.tab-success{color:", ";}&.tab-redirect{color:", ";}&.tab-info{color:", ";}&.tab-error{color:", ";}}}> .react-tabs__tab-panel{background:rgba(0,0,0,0.2);border-radius:4px;& > div,& > pre{padding:20px;margin:0;}}"], function (props) { return props.theme.colors.text.primary; }, function (props) { return props.theme.colors.responses.success.color; }, function (props) { return props.theme.colors.responses.redirect.color; }, function (props) { return props.theme.colors.responses.info.color; }, function (props) { return props.theme.colors.responses.error.color; });
+})(["> ul{list-style:none;padding:0;margin:5px;text-align:center;> li{padding:5px 10px;display:inline-block;background-color:rgba(0,0,0,0.2);border-bottom:1px solid rgba(0,0,0,0.5);cursor:pointer;text-align:center;outline:none;color:#ccc;margin:5px;border:1px solid #181f22;border-radius:4px;min-width:60px;font-size:0.9em;font-weight:bold;&:first-child{margin:5px 0;border-top-right-radius:0;border-bottom-right-radius:0;}&:last-child{margin:5px 0;border-top-left-radius:0;border-bottom-left-radius:0;border-left:0;}&:not(:first-child):not(:last-child){margin:5px 0;border-radius:0;border-left:0;}&.react-tabs__tab--selected{color:", ";background:rgba(255,255,255,0.6);}&:only-child{flex:none;min-width:100px;margin:5px;border-radius:4px;}&.tab-success{color:", ";}&.tab-redirect{color:", ";}&.tab-info{color:", ";}&.tab-error{color:", ";}}}> .react-tabs__tab-panel{background:rgba(0,0,0,0.2);border-radius:4px;& > div,& > pre{padding:20px;margin:0;}}"], function (props) { return props.theme.colors.text.primary; }, function (props) { return props.theme.colors.responses.success.color; }, function (props) { return props.theme.colors.responses.redirect.color; }, function (props) { return props.theme.colors.responses.info.color; }, function (props) { return props.theme.colors.responses.error.color; });
 var SmallTabs = styled_components(Tabs).withConfig({
     componentId: "sc-1vrf7wa-1"
 })(["> ul{display:block;> li{padding:2px 5px;min-width:auto;margin:0 15px 0 0;font-size:13px;font-weight:normal;border-bottom:1px dashed;color:#787b7d;border-radius:0;background:none;&:last-child{margin-right:0;}&.react-tabs__tab--selected{color:#babcbf;background:none;}}}> .react-tabs__tab-panel{& > div,& > pre{padding:10px 0;margin:0;}}"]);
