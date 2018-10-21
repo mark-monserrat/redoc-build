@@ -8704,7 +8704,7 @@ var MediaTypesSwitch_MediaTypesSwitch = /** @class */ (function (_super) {
         return _this;
     }
     MediaTypesSwitch.prototype.render = function () {
-        var content = this.props.content;
+        var _a = this.props, content = _a.content, hideDropdown = _a.hideDropdown;
         if (!content || !content.mediaTypes || !content.mediaTypes.length) {
             return null;
         }
@@ -8715,12 +8715,16 @@ var MediaTypesSwitch_MediaTypesSwitch = /** @class */ (function (_super) {
                 value: idx.toString()
             };
         });
-        return external_react_["createElement"](external_react_["Fragment"], null,
-            this.props.renderDropdown({
+        var dropdown = external_react_["createElement"](external_react_["Fragment"], null);
+        if (!hideDropdown) {
+            dropdown = this.props.renderDropdown({
                 value: options[activeMimeIdx],
                 options: options,
                 onChange: this.switchMedia
-            }),
+            });
+        }
+        return external_react_["createElement"](external_react_["Fragment"], null,
+            dropdown,
             this.props.children(content.active));
     };
     MediaTypesSwitch = external_tslib_["__decorate"]([
@@ -9173,7 +9177,7 @@ var PayloadSamples_PayloadSamples = /** @class */ (function (_super) {
         if (mimeContent === undefined) {
             return null;
         }
-        return external_react_["createElement"](MediaTypesSwitch_MediaTypesSwitch, { content: mimeContent, renderDropdown: this.renderDropdown }, function (mediaType) { return external_react_["createElement"](MediaTypeSamples_MediaTypeSamples, { key: "samples", mediaType: mediaType }); });
+        return external_react_["createElement"](MediaTypesSwitch_MediaTypesSwitch, { content: mimeContent, hideDropdown: true, renderDropdown: this.renderDropdown }, function (mediaType) { return external_react_["createElement"](MediaTypeSamples_MediaTypeSamples, { key: "samples", mediaType: mediaType }); });
     };
     PayloadSamples = external_tslib_["__decorate"]([
         external_mobx_react_["observer"]
@@ -9464,7 +9468,7 @@ var Operation_Operation = /** @class */ (function (_super) {
                 external_react_["createElement"](Extensions_Extensions, { extensions: operation.extensions }),
                 external_react_["createElement"](SecurityRequirement_SecurityRequirements, { securities: operation.security }),
                 external_react_["createElement"](Parameters_Parameters, { parameters: operation.parameters, body: operation.requestBody }),
-                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses })),
+                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses, description: operation.description })),
             external_react_["createElement"](DarkRightPanel, null,
                 !options.pathInMiddlePanel && external_react_["createElement"](Endpoint_Endpoint, { operation: operation }),
                 external_react_["createElement"](RequestSamples_RequestSamples, { operation: operation }),

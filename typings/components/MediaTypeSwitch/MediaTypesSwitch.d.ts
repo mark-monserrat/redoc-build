@@ -7,6 +7,7 @@ export interface MediaTypeChildProps {
 }
 export interface MediaTypesSwitchProps {
     content?: MediaContentModel;
+    hideDropdown?: boolean;
     renderDropdown: (props: DropdownProps) => JSX.Element;
     children: (activeMime: MediaTypeModel) => JSX.Element;
 }
