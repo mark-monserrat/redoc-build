@@ -1,9 +1,4 @@
-export declare const Spinner: import("styled-components").StyledComponentClass<{
+export declare const Spinner: (props: {
     className?: string | undefined;
     color: string;
-}, import("../../theme").ResolvedThemeInterface, Pick<{
-    className?: string | undefined;
-    color: string;
-}, "color" | "className"> & {
-    theme?: import("../../theme").ResolvedThemeInterface | undefined;
-}>;
+}) => JSX.Element;

@@ -4464,7 +4464,10 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
 // CONCATENATED MODULE: ./src/components/Loading/Spinner.svg.tsx
 
 
-var _Spinner = function (props) { return external_react_["createElement"]("svg", { className: props.className, width: "145px", height: "60px", viewBox: "0 0 80 20", version: "1.1" },
+var SpinnerModule = styled_components.svg.withConfig({
+    componentId: "sc-8xfcsx-0"
+})(["margin:auto;&  #rotating-gear{animation:rotate 3s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}@keyframes rotate{0%{-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}100%{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}}"]);
+var Spinner = function (props) { return external_react_["createElement"](SpinnerModule, { className: props.className, width: "145px", height: "60px", viewBox: "0 0 80 20", version: "1.1" },
     external_react_["createElement"]("defs", null,
         external_react_["createElement"]("clipPath", { id: "pulse" },
             external_react_["createElement"]("path", { d: "M24.1998083,11.8719806 C18.8569637,11.8719806 5.4943128,11.8719806 0,11.8719806 C0,5.31526677 5.41731162,0 12.0999042,0 C18.7824967,0 24.1998083,5.31526677 24.1998083,11.8719806 Z M18.850377,11.8407386 C18.850377,8.20003692 15.8423434,5.24866511 12.131746,5.24866511 C8.42114857,5.24866511 5.41311502,8.20003692 5.41311502,11.8407386 C8.36866497,11.8407386 15.9066811,11.8407386 18.850377,11.8407386 Z" }))),
@@ -4479,9 +4482,6 @@ var _Spinner = function (props) { return external_react_["createElement"]("svg",
                     external_react_["createElement"]("g", { id: "icon", transform: "translate(53.357003, 0.038302)" },
                         external_react_["createElement"]("path", { d: "M8.74531388,5.035077 C9.31045875,5.03562535 9.78749938,5.03641631 10.1329068,5.03750005 C10.1329068,2.27477587 7.8654218,0.0351454091 5.06833728,0.0351454091 C2.27125277,0.0351454091 0.00376774828,2.27477587 0.00376774828,5.03750005 C0.387292256,5.03704486 0.826191631,5.03660409 1.3024668,5.03619852 C1.30271753,3.00232391 2.97146282,1.34009813 5.03068951,1.34009813 C7.09007091,1.34009813 8.76545349,2.9965667 8.76545349,5.03064996 C8.75875902,5.03213262 8.75204578,5.0336083 8.74531388,5.035077 Z", id: "Combined-Shape" }),
                         external_react_["createElement"]("ellipse", { id: "Oval-2", cx: "5.0366386", cy: "5.07126998", rx: "2.32858182", ry: "2.29997673" }))))))); };
-var Spinner = styled_components(_Spinner).withConfig({
-    componentId: "sc-8xfcsx-0"
-})(["margin:auto;&  #rotating-gear{animation:rotate 5s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}@keyframes rotate{0%{-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}100%{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}}"]);
 
 // CONCATENATED MODULE: ./src/components/Loading/Loading.tsx
 
