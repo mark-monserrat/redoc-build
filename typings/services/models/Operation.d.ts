@@ -20,7 +20,6 @@ export declare class OperationModel implements IMenuItem {
     name: string;
     description?: string;
     responseDescription?: string;
-    method?: string;
     type: "operation";
     parent?: GroupModel;
     externalDocs?: OpenAPIExternalDocumentation;

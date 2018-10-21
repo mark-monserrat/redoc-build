@@ -9445,14 +9445,8 @@ var Description = styled_components.div.withConfig({
     var theme = _a.theme;
     return theme.spacing.unit * 6;
 });
-var Operation_ApiInfo = styled_components.div.withConfig({
-    componentId: "bf7xj3-2"
-})(["padding:10px;"]);
-var ApiMethod = styled_components.div.withConfig({
-    componentId: "bf7xj3-3"
-})(["padding:10px;text-transform:uppercase;"]);
 var Snippet = styled_components.div.withConfig({
-    componentId: "bf7xj3-4"
+    componentId: "bf7xj3-2"
 })(["padding:10px;text-transform:uppercase;color:#ffffff;text-align:center;text-transform:uppercase;padding:20px 0;font-weight:500;font-size:15px;"]);
 var Operation_Operation = /** @class */ (function (_super) {
     external_tslib_["__extends"](Operation, _super);
@@ -9461,7 +9455,7 @@ var Operation_Operation = /** @class */ (function (_super) {
     }
     Operation.prototype.render = function () {
         var operation = this.props.operation;
-        var summary = operation.name, method = operation.method, path = operation.path, description = operation.description, responseDescription = operation.responseDescription, deprecated = operation.deprecated, externalDocs = operation.externalDocs;
+        var summary = operation.name, description = operation.description, responseDescription = operation.responseDescription, deprecated = operation.deprecated, externalDocs = operation.externalDocs;
         var hasDescription = !!(description || externalDocs);
         return external_react_["createElement"](OptionsContext.Consumer, null, function (options) { return external_react_["createElement"](OperationRow, null,
             external_react_["createElement"](MiddlePanel, null,
@@ -9470,10 +9464,6 @@ var Operation_Operation = /** @class */ (function (_super) {
                     summary,
                     " ",
                     deprecated && external_react_["createElement"](Badge, { type: "warning" }, " Deprecated ")),
-                external_react_["createElement"](Operation_ApiInfo, null,
-                    external_react_["createElement"](ApiMethod, null, method),
-                    " ",
-                    path),
                 options.pathInMiddlePanel && external_react_["createElement"](Endpoint_Endpoint, { operation: operation, inverted: true }),
                 hasDescription && external_react_["createElement"](Description, null,
                     description !== undefined && external_react_["createElement"](Markdown_Markdown, { source: description }),
