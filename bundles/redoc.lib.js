@@ -7009,7 +7009,7 @@ var Blinker = styled_components.span.withConfig({
 })(["color:#FFFFFF;display:inline-block;font-weight:800;font-size:15px;font-family:Courier,monospace;color:#2E3D48;-webkit-animation:1s ", "  step-end infinite;-moz-animation:1s ", "  step-end infinite;-ms-animation:1s ", "  step-end infinite;-o-animation:1s ", "  step-end infinite;animation:1s ", " step-end infinite;"], blinkKeyframe, blinkKeyframe, blinkKeyframe, blinkKeyframe, blinkKeyframe);
 var RightPanelHeader = styled_components.h3.withConfig({
     componentId: "shv3r-4"
-})(["color:", ";text-align:center;text-transform:uppercase;padding:10px 0;background-color:rgba(0,0,0,0.2);font-weight:500;font-size:12px;", ";font-family:Courier,monospace;"], function (_a) {
+})(["color:", ";text-align:center;text-transform:uppercase;padding:10px 0;background-color:rgba(0,0,0,0.2);margin-top:0;font-weight:500;font-size:12px;", ";font-family:Courier,monospace;"], function (_a) {
     var theme = _a.theme;
     return theme.rightPanel.textColor;
 }, extensionsHook('RightPanelHeader'));
@@ -9377,7 +9377,7 @@ var ResponsesList_ResponsesList = /** @class */ (function (_super) {
         }
         return external_react_["createElement"](ResponseContainer, null,
             external_react_["createElement"](ResponsesHeader, null, " Responses "),
-            description ? external_react_["createElement"](Markdown_Markdown, { source: description }) : '',
+            external_react_["createElement"](Markdown_Markdown, { source: description }),
             responses.map(function (response) {
                 return external_react_["createElement"](Response_ResponseView, { key: response.code, response: response });
             }));
@@ -9451,6 +9451,9 @@ var Operation_ApiInfo = styled_components.div.withConfig({
 var ApiMethod = styled_components.div.withConfig({
     componentId: "bf7xj3-3"
 })(["padding:10px;text-transform:uppercase;"]);
+var Snippet = styled_components.div.withConfig({
+    componentId: "bf7xj3-4"
+})(["padding:10px;text-transform:uppercase;color:#ffffff;text-align:center;text-transform:uppercase;padding:20px 0;font-weight:500;font-size:15px;"]);
 var Operation_Operation = /** @class */ (function (_super) {
     external_tslib_["__extends"](Operation, _super);
     function Operation() {
@@ -9466,10 +9469,11 @@ var Operation_Operation = /** @class */ (function (_super) {
                     external_react_["createElement"](ShareLink, { to: operation.id }),
                     summary,
                     " ",
+                    deprecated && external_react_["createElement"](Badge, { type: "warning" }, " Deprecated ")),
+                external_react_["createElement"](Operation_ApiInfo, null,
                     external_react_["createElement"](ApiMethod, null, method),
                     " ",
-                    deprecated && external_react_["createElement"](Badge, { type: "warning" }, " Deprecated ")),
-                external_react_["createElement"](Operation_ApiInfo, null, path),
+                    path),
                 options.pathInMiddlePanel && external_react_["createElement"](Endpoint_Endpoint, { operation: operation, inverted: true }),
                 hasDescription && external_react_["createElement"](Description, null,
                     description !== undefined && external_react_["createElement"](Markdown_Markdown, { source: description }),
@@ -9477,9 +9481,9 @@ var Operation_Operation = /** @class */ (function (_super) {
                 external_react_["createElement"](Extensions_Extensions, { extensions: operation.extensions }),
                 external_react_["createElement"](SecurityRequirement_SecurityRequirements, { securities: operation.security }),
                 external_react_["createElement"](Parameters_Parameters, { parameters: operation.parameters, body: operation.requestBody }),
-                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses, description: responseDescription })),
+                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses, description: responseDescription ? responseDescription : '' })),
             external_react_["createElement"](DarkRightPanel, null,
-                !options.pathInMiddlePanel && external_react_["createElement"](Endpoint_Endpoint, { operation: operation }),
+                external_react_["createElement"](Snippet, null, "CODE SNIPPET"),
                 external_react_["createElement"](RequestSamples_RequestSamples, { operation: operation }),
                 external_react_["createElement"](ResponseSamples_ResponseSamples, { operation: operation }))); });
     };
