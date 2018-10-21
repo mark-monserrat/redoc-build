@@ -401,22 +401,28 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(21)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(22)))
 
 /***/ }),
 /* 13 */
 /***/ (function(module, exports) {
 
-module.exports = require("eventemitter3");
+module.exports = require("styled-components");
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-module.exports = require("prismjs");
+module.exports = require("eventemitter3");
 
 /***/ }),
 /* 15 */
+/***/ (function(module, exports) {
+
+module.exports = require("prismjs");
+
+/***/ }),
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -520,25 +526,25 @@ module.exports = {
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("mark.js");
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("openapi-sampler");
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports) {
 
 module.exports = require("perfect-scrollbar");
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(65)(false);
@@ -552,13 +558,13 @@ exports.push([module.i, "/*\n * Container style\n */\n.ps {\n  overflow: hidden 
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -748,19 +754,19 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = undefined;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("js-yaml");
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -774,7 +780,7 @@ module.exports = {
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -879,12 +885,12 @@ module.exports = {
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var jpescape = __webpack_require__(15).jpescape;
+var jpescape = __webpack_require__(16).jpescape;
 function defaultState() {
     return {
         path: '#',
@@ -943,7 +949,7 @@ module.exports = {
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1065,10 +1071,10 @@ module.exports = {
     sanitiseAll: sanitiseAll
 };
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(21)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(22)))
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1189,16 +1195,10 @@ function search(q, limit) {
 
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports) {
-
-module.exports = require("slugify");
-
-/***/ }),
 /* 30 */
 /***/ (function(module, exports) {
 
-module.exports = require("styled-components");
+module.exports = require("slugify");
 
 /***/ }),
 /* 31 */
@@ -1213,20 +1213,20 @@ module.exports = require("json-schema-ref-parser");
 "use strict";
 // @ts-check
 
-var fs = __webpack_require__(20);
+var fs = __webpack_require__(21);
 var url = __webpack_require__(8);
 var pathlib = __webpack_require__(12);
 var maybe = __webpack_require__(37);
-var fetch = __webpack_require__(22);
-var yaml = __webpack_require__(23);
-var jptr = __webpack_require__(15);
+var fetch = __webpack_require__(23);
+var yaml = __webpack_require__(24);
+var jptr = __webpack_require__(16);
 var resolveInternal = jptr.jptr;
-var isRef = __webpack_require__(24).isRef;
-var clone = __webpack_require__(25).clone;
-var recurse = __webpack_require__(26).recurse;
+var isRef = __webpack_require__(25).isRef;
+var clone = __webpack_require__(26).clone;
+var recurse = __webpack_require__(27).recurse;
 var resolver = __webpack_require__(38);
 var sw = __webpack_require__(40);
-var common = __webpack_require__(27);
+var common = __webpack_require__(28);
 var statusCodes = __webpack_require__(41).statusCodes;
 var ourVersion = __webpack_require__(42).version;
 // TODO handle specification-extensions with plugins?
@@ -2661,17 +2661,17 @@ module.exports = require("call-me-maybe");
 
 "use strict";
 
-var fs = __webpack_require__(20);
+var fs = __webpack_require__(21);
 var path = __webpack_require__(12);
 var url = __webpack_require__(8);
 var util = __webpack_require__(39);
-var fetch = __webpack_require__(22);
-var yaml = __webpack_require__(23);
-var jptr = __webpack_require__(15).jptr;
-var recurse = __webpack_require__(26).recurse;
-var clone = __webpack_require__(25).clone;
-var isRef = __webpack_require__(24).isRef;
-var common = __webpack_require__(27);
+var fetch = __webpack_require__(23);
+var yaml = __webpack_require__(24);
+var jptr = __webpack_require__(16).jptr;
+var recurse = __webpack_require__(27).recurse;
+var clone = __webpack_require__(26).clone;
+var isRef = __webpack_require__(25).isRef;
+var common = __webpack_require__(28);
 function unique(arr) {
     return new Set(arr).slice();
 }
@@ -4110,7 +4110,7 @@ if (typeof Element !== 'undefined' && !Element.prototype.scrollIntoViewIfNeeded)
 }
 
 // EXTERNAL MODULE: external "slugify"
-var external_slugify_ = __webpack_require__(29);
+var external_slugify_ = __webpack_require__(30);
 var external_slugify_default = /*#__PURE__*/__webpack_require__.n(external_slugify_);
 
 // EXTERNAL MODULE: external "url"
@@ -4362,7 +4362,8 @@ var RedocNormalizedOptions_RedocNormalizedOptions = /** @class */ (function () {
 
 
 // EXTERNAL MODULE: external "styled-components"
-var external_styled_components_ = __webpack_require__(30);
+var external_styled_components_ = __webpack_require__(13);
+var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // CONCATENATED MODULE: ./src/styled-components.ts
 
@@ -4463,10 +4464,21 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
 
 // CONCATENATED MODULE: ./src/components/Loading/Spinner.svg.tsx
 
-
-var SpinnerModule = styled_components.svg.withConfig({
+ // const spinnerframe = keyframes`
+//   0% {
+//     transform: rotate(0deg);
+//     transform-origin: 12px 12px;
+//     display: inline-block;
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//     transform-origin: 12px 12px;
+//     display: inline-block;
+//   }
+// `;
+var SpinnerModule = external_styled_components_default.a.svg.withConfig({
     componentId: "sc-8xfcsx-0"
-})(["margin:auto;&  .Page-1 .api_lab .Logo .gear .rotating-gear{animation:rotate 3s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}&  .rotating-gear{animation:rotate 3s linear infinite;-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}@keyframes rotate{0%{-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}100%{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}}"]);
+})(["&  .rotating-gear{-webkit-transform-origin:12px 12px;-moz-transform-origin:12px 12px;-ms-transform-origin:12px 12px;-o-transform-origin:12px 12px;transform-origin:12px 12px;display:inline-block;}"]);
 var Spinner = function (props) { return external_react_["createElement"](SpinnerModule, { className: props.className, width: "145px", height: "60px", viewBox: "0 0 80 20", version: "1.1" },
     external_react_["createElement"]("defs", null,
         external_react_["createElement"]("clipPath", { id: "pulse" },
@@ -4574,7 +4586,7 @@ function convertSwagger2OpenAPI(spec) {
 var external_decko_ = __webpack_require__(10);
 
 // EXTERNAL MODULE: external "eventemitter3"
-var external_eventemitter3_ = __webpack_require__(13);
+var external_eventemitter3_ = __webpack_require__(14);
 
 // EXTERNAL MODULE: external "json-pointer"
 var external_json_pointer_ = __webpack_require__(6);
@@ -4935,7 +4947,7 @@ function extractExtensions(obj, showExtensions) {
 }
 
 // EXTERNAL MODULE: external "prismjs"
-var external_prismjs_ = __webpack_require__(14);
+var external_prismjs_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: external "prismjs/components/prism-bash.js"
 var prism_bash_js_ = __webpack_require__(43);
@@ -5216,7 +5228,7 @@ var HistoryService_history = new HistoryService_HistoryService();
 if (false) {}
 
 // EXTERNAL MODULE: external "mark.js"
-var external_mark_js_ = __webpack_require__(16);
+var external_mark_js_ = __webpack_require__(17);
 
 // CONCATENATED MODULE: ./src/services/MarkerService.ts
 
@@ -6105,7 +6117,7 @@ var Field_FieldModel = /** @class */ (function () {
 
 
 // EXTERNAL MODULE: external "openapi-sampler"
-var external_openapi_sampler_ = __webpack_require__(17);
+var external_openapi_sampler_ = __webpack_require__(18);
 
 // CONCATENATED MODULE: ./src/services/models/Example.ts
 var ExampleModel = /** @class */ (function () {
@@ -6916,11 +6928,11 @@ if (IS_BROWSER) {
         worker = __webpack_require__(62);
     }
     catch (e) {
-        worker = __webpack_require__(28).default;
+        worker = __webpack_require__(29).default;
     }
 }
 else {
-    worker = __webpack_require__(28).default;
+    worker = __webpack_require__(29).default;
 }
 var SearchStore_SearchStore = /** @class */ (function () {
     function SearchStore() {
@@ -7000,12 +7012,10 @@ var H2 = styled_components.h2.withConfig({
 var H3 = styled_components.h2.withConfig({
     componentId: "shv3r-2"
 })(["", ";color:black;", ";"], headerCommonMixin(3), extensionsHook('H3'));
+var blinkKeyframe = keyframes(["from,to{color:transparent;}50%{color:black;}"]);
 var Blinker = styled_components.span.withConfig({
     componentId: "shv3r-3"
-})(["color:", ";display:inline-block;float:left;font-weight:500;font-size:12px;font-family:Courier,monospace;color:#2E3D48;-webkit-animation:1s blink step-end infinite;-moz-animation:1s blink step-end infinite;-ms-animation:1s blink step-end infinite;-o-animation:1s blink step-end infinite;animation:1s blink step-end infinite;@keyframes \"blink\"{from,to{color:transparent;}50%{color:black;}}@-moz-keyframes blink{from,to{color:transparent;}50%{color:black;}}@-webkit-keyframes \"blink\"{from,to{color:transparent;}50%{color:black;}}@-ms-keyframes \"blink\"{from,to{color:transparent;}50%{color:black;}}@-o-keyframes \"blink\"{from,to{color:transparent;}50%{color:black;}}"], function (_a) {
-    var theme = _a.theme;
-    return theme.rightPanel.textColor;
-});
+})(["color:#FFFFFF;display:inline-block;font-weight:800;font-size:15px;font-family:Courier,monospace;color:#2E3D48;-webkit-animation:1s ", "  step-end infinite;-moz-animation:1s ", "  step-end infinite;-ms-animation:1s ", "  step-end infinite;-o-animation:1s ", "  step-end infinite;animation:1s ", " step-end infinite;"], blinkKeyframe, blinkKeyframe, blinkKeyframe, blinkKeyframe, blinkKeyframe);
 var RightPanelHeader = styled_components.h3.withConfig({
     componentId: "shv3r-4"
 })(["color:", ";text-align:center;text-transform:uppercase;padding:10px 0;background-color:rgba(0,0,0,0.2);font-weight:500;font-size:12px;", ";font-family:Courier,monospace;"], function (_a) {
@@ -7293,11 +7303,11 @@ var SampleControlsWrap = styled_components.div.withConfig({
 })(["&:hover ", "{opacity:1;}"], SampleControls);
 
 // EXTERNAL MODULE: external "perfect-scrollbar"
-var external_perfect_scrollbar_ = __webpack_require__(18);
+var external_perfect_scrollbar_ = __webpack_require__(19);
 var external_perfect_scrollbar_default = /*#__PURE__*/__webpack_require__.n(external_perfect_scrollbar_);
 
 // EXTERNAL MODULE: ./node_modules/perfect-scrollbar/css/perfect-scrollbar.css
-var perfect_scrollbar = __webpack_require__(19);
+var perfect_scrollbar = __webpack_require__(20);
 var perfect_scrollbar_default = /*#__PURE__*/__webpack_require__.n(perfect_scrollbar);
 
 // CONCATENATED MODULE: ./src/common-elements/perfect-scrollbar.tsx
@@ -9201,7 +9211,7 @@ var RequestSamples_RequestSamples = /** @class */ (function (_super) {
         var hasSamples = hasBodySample || samples.length > 0;
         return hasSamples && external_react_["createElement"]("div", null,
             external_react_["createElement"](RightPanelHeader, null,
-                " Request samples$ ",
+                " Request samples $",
                 external_react_["createElement"](Blinker, null, "_")),
             external_react_["createElement"](Tabs, { defaultIndex: 0 },
                 external_react_["createElement"](external_react_tabs_["TabList"], null,
@@ -9397,7 +9407,7 @@ var ResponseSamples_ResponseSamples = /** @class */ (function (_super) {
         });
         return responses.length > 0 && external_react_["createElement"]("div", null,
             external_react_["createElement"](RightPanelHeader, null,
-                " Response samples$ ",
+                " Response samples $",
                 external_react_["createElement"](Blinker, null, "_")),
             external_react_["createElement"](Tabs, { defaultIndex: 0 },
                 external_react_["createElement"](external_react_tabs_["TabList"], null, responses.map(function (response) { return external_react_["createElement"](external_react_tabs_["Tab"], { className: 'tab-' + response.type, key: response.code }, response.code); })),
