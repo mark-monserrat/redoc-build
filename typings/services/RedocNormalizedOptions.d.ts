@@ -39,6 +39,7 @@ export declare class RedocNormalizedOptions {
     hideDownloadButton: boolean;
     disableSearch: boolean;
     onlyRequiredInSamples: boolean;
+    hideDropdown: boolean;
     showExtensions: boolean | string[];
     unstable_ignoreMimeParameters: boolean;
     allowedMdComponents: Dict<MDXComponentMeta>;
