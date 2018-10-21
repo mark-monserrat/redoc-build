@@ -9468,7 +9468,7 @@ var Operation_Operation = /** @class */ (function (_super) {
                 external_react_["createElement"](Extensions_Extensions, { extensions: operation.extensions }),
                 external_react_["createElement"](SecurityRequirement_SecurityRequirements, { securities: operation.security }),
                 external_react_["createElement"](Parameters_Parameters, { parameters: operation.parameters, body: operation.requestBody }),
-                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses, description: operation.description })),
+                external_react_["createElement"](ResponsesList_ResponsesList, { responses: operation.responses, description: operation.responseDescription })),
             external_react_["createElement"](DarkRightPanel, null,
                 !options.pathInMiddlePanel && external_react_["createElement"](Endpoint_Endpoint, { operation: operation }),
                 external_react_["createElement"](RequestSamples_RequestSamples, { operation: operation }),
