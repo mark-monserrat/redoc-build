@@ -7265,7 +7265,7 @@ var external_react_tabs_ = __webpack_require__(9);
 
 var Tabs = styled_components(external_react_tabs_["Tabs"]).withConfig({
     componentId: "sc-1vrf7wa-0"
-})(["> ul{list-style:none;padding:0;margin:0;margin:0 -5px;> li{padding:5px 10px;display:inline-block;background-color:rgba(0,0,0,0.2);border-bottom:1px solid rgba(0,0,0,0.5);cursor:pointer;text-align:center;outline:none;color:#ccc;margin:5px;border:1px solid #181f22;border-radius:5px;min-width:60px;font-size:0.9em;font-weight:bold;&.react-tabs__tab--selected{color:", ";background:#e2e2e2;}&:only-child{flex:none;min-width:100px;}&.tab-success{color:", ";}&.tab-redirect{color:", ";}&.tab-info{color:", ";}&.tab-error{color:", ";}}}> .react-tabs__tab-panel{background:#171e21;& > div,& > pre{padding:20px;margin:0;}}"], function (props) { return props.theme.colors.text.primary; }, function (props) { return props.theme.colors.responses.success.color; }, function (props) { return props.theme.colors.responses.redirect.color; }, function (props) { return props.theme.colors.responses.info.color; }, function (props) { return props.theme.colors.responses.error.color; });
+})(["> ul{list-style:none;padding:0;margin:0;margin:0 -5px;> li{padding:5px 10px;display:inline-block;background-color:rgba(0,0,0,0.2);border-bottom:1px solid rgba(0,0,0,0.5);cursor:pointer;text-align:center;outline:none;color:#ccc;margin:5px;border:1px solid #181f22;border-radius:5px;min-width:60px;font-size:0.9em;font-weight:bold;&.react-tabs__tab--selected{color:", ";background:#e2e2e2;}&:only-child{flex:none;min-width:100px;}&.tab-success{color:", ";}&.tab-redirect{color:", ";}&.tab-info{color:", ";}&.tab-error{color:", ";}}}> .react-tabs__tab-panel{background:rgba(0,0,0,0.2);border-radius:4px;& > div,& > pre{padding:20px;margin:0;}}"], function (props) { return props.theme.colors.text.primary; }, function (props) { return props.theme.colors.responses.success.color; }, function (props) { return props.theme.colors.responses.redirect.color; }, function (props) { return props.theme.colors.responses.info.color; }, function (props) { return props.theme.colors.responses.error.color; });
 var SmallTabs = styled_components(Tabs).withConfig({
     componentId: "sc-1vrf7wa-1"
 })(["> ul{display:block;> li{padding:2px 5px;min-width:auto;margin:0 15px 0 0;font-size:13px;font-weight:normal;border-bottom:1px dashed;color:#787b7d;border-radius:0;background:none;&:last-child{margin-right:0;}&.react-tabs__tab--selected{color:#babcbf;background:none;}}}> .react-tabs__tab-panel{& > div,& > pre{padding:10px 0;margin:0;}}"]);
@@ -7366,7 +7366,7 @@ var external_dompurify_ = __webpack_require__(35);
 
 var PrismDiv = styled_components.div.withConfig({
     componentId: "sc-107yc6q-0"
-})(["code[class*='language-'],pre[class*='language-']{text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}@media print{code[class*='language-'],pre[class*='language-']{text-shadow:none;}}pre[class*='language-']{padding:1em;margin:0.5em 0;overflow:auto;}.token.comment,.token.prolog,.token.doctype,.token.cdata{color:#B3B4B7;}.token.punctuation{opacity:0.7;}.namespace{opacity:0.7;}.token.property,.token.tag,.token.number,.token.constant,.token.symbol{color:#9B83BB;}.token.boolean{color:#E09C63;}.token.selector,.token.attr-name,.token.char,.token.builtin,.token.inserted{color:#9CAF57;& + a,& + a:visited{color:#9CAF57;text-decoration:underline;}}.token.string{color:#9CAF57;}.token.operator{color:#D5673D;}.token.entity,.token.url,.token.variable{color:#F26834;}.token.atrule,.token.attr-value,.token.keyword{color:#D5673D;}.token.regex,.token.important{color:#e90;}.token.important,.token.bold{font-weight:bold;}.token.italic{font-style:italic;}.token.entity{cursor:help;}.token.deleted{color:red;}", ";"], extensionsHook('Prism'));
+})(["code[class*='language-'],pre[class*='language-']{text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}@media print{code[class*='language-'],pre[class*='language-']{text-shadow:none;}}pre[class*='language-']{padding:1em;margin:0.5em 0;overflow:auto;}.token.comment,.token.prolog,.token.cdata{color:#B3B4B7;}.token.doctype{color:##3B82C4}.token.punctuation{opacity:0.7;}.namespace{opacity:0.7;}.token.tag,.token.number,.token.symbol{color:#9B83BB;}.token.constant{color:#CD6069;}.token.boolean{color:#E09C63;}.token.function{color:#D99C58;}.token.selector,.token.char,.token.builtin,.token.inserted{color:#9CAF57;& + a,& + a:visited{color:#9CAF57;text-decoration:underline;}}.token.property,.token.attr-name{color:#3D979E;}.token.attr-value,.token.string{color:#9CAF57;}.token.operator{color:#D5673D;}.token.entity,.token.url,.token.variable{color:#F26834;}.token.atrule,.token.keyword{color:#D5673D;}.token.regex,.token.important{color:#414286;}.token.important,.token.bold{font-weight:bold;}.token.italic{font-style:italic;}.token.entity{cursor:help;}.token.deleted{color:red;}", ";"], extensionsHook('Prism'));
 
 // CONCATENATED MODULE: ./src/components/Markdown/styled.elements.tsx
 
@@ -8177,7 +8177,7 @@ var TypeTitle = styled_components(FieldLabel).withConfig({
 var TypeFormat = TypeName;
 var RequiredLabel = styled_components(FieldLabel.withComponent('div')).withConfig({
     componentId: "sc-1noysbl-5"
-})(["color:", ";font-size:", ";font-weight:normal;margin-left:20px;line-height:1;"], function (props) { return props.theme.schema.requireLabelColor; }, function (props) { return props.theme.schema.labelsTextSize; });
+})(["color:", ";font-size:", ";font-weight:normal;margin-left:20px;line-height:1;text-transform:uppercase;font-size:9px;font-weight:600;border:solid 1px;padding:4px 8px;border-radius:30px;background:#E09C64;color:#ffffff;position:absolute;"], function (props) { return props.theme.schema.requireLabelColor; }, function (props) { return props.theme.schema.labelsTextSize; });
 var RecursiveLabel = styled_components(FieldLabel).withConfig({
     componentId: "sc-1noysbl-6"
 })(["color:", ";font-size:13px;"], function (_a) {
@@ -8192,10 +8192,7 @@ var PatternLabel = styled_components(FieldLabel).withConfig({
 })(["color:#3195a6;&::before,&::after{content:'/';font-weight:bold;}"]);
 var ExampleValue = styled_components(FieldLabel).withConfig({
     componentId: "sc-1noysbl-9"
-})(["border-radius:2px;", ";& + &{margin-left:0;}", ";"], function (_a) {
-    var theme = _a.theme;
-    return "\n    background-color: " + Object(external_polished_["transparentize"])(0.95, theme.colors.text.primary) + ";\n    color: " + Object(external_polished_["transparentize"])(0.1, theme.colors.text.primary) + ";\n\n    margin: " + theme.spacing.unit + "px;\n    padding: 0 " + theme.spacing.unit + "px;\n    border: 1px solid " + Object(external_polished_["transparentize"])(0.9, theme.colors.text.primary) + ";\n}";
-}, extensionsHook('ExampleValue'));
+})(["border-radius:20px;", ";& + &{margin-left:0;}", ";"], function () { return "\n    background-color: #eef4fb;\n    color: #0E5FC2;\n    margin: 5px;\n    padding: 1px 5px;\n    border: 1px solid #5e95d8;\n}"; }, extensionsHook('ExampleValue'));
 var ConstraintItem = styled_components(FieldLabel).withConfig({
     componentId: "sc-1noysbl-10"
 })(["border-radius:2px;", ";& + &{margin-left:0;}", ";"], function (_a) {
