@@ -9354,6 +9354,7 @@ var Response_ResponseView = /** @class */ (function (_super) {
 
 
 
+
 var ResponsesHeader = styled_components.h3.withConfig({
     componentId: "zr04gj-0"
 })(["font-size:18px;padding:0.2em 0;margin:3em 0 1.1em;color:#253137;font-weight:normal;"]);
@@ -9366,12 +9367,13 @@ var ResponsesList_ResponsesList = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     ResponsesList.prototype.render = function () {
-        var responses = this.props.responses;
+        var _a = this.props, responses = _a.responses, description = _a.description;
         if (!responses || responses.length === 0) {
             return null;
         }
         return external_react_["createElement"](ResponseContainer, null,
             external_react_["createElement"](ResponsesHeader, null, " Responses "),
+            description ? external_react_["createElement"](Markdown_Markdown, { source: description }) : '',
             responses.map(function (response) {
                 return external_react_["createElement"](Response_ResponseView, { key: response.code, response: response });
             }));
