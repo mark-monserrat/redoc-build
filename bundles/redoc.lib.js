@@ -4454,7 +4454,7 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
                 external_react_["createElement"]("br", null),
                 external_react_["createElement"]("small", null,
                     " Commit: ",
-                    "d96b42c"));
+                    "a9d4cb5"));
         }
         return external_react_["Children"].only(this.props.children);
     };
@@ -7388,13 +7388,13 @@ var PrismDiv = styled_components.div.withConfig({
 
 
 var linksCss = css(["a{text-decoration:none;color:", ";&:visited{color:", ";}&:hover{color:", ";}}"], function (props) { return props.theme.typography.links.color; }, function (props) { return props.theme.typography.links.visited; }, function (props) { return props.theme.typography.links.hover; });
-var StyledMarkdownBlock = withProps(styled_components(PrismDiv))(styled_elements_templateObject_1 || (styled_elements_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n\n  font-family: ", ";\n  font-weight: ", ";\n  line-height: ", ";\n\n  p {\n    &:last-child {\n      margin-bottom: 0;\n    }\n  }\n\n  ", "\n\n  ", "\n\n  h1 {\n    ", ";\n    color: ", ";\n    margin-top: 0;\n  }\n\n  h2 {\n    ", ";\n    color: ", ";\n  }\n\n  code {\n    color: ", ";\n    background-color: ", ";\n    font-family: ", ";\n    padding: 0.1em 0.25em 0.2em;\n    font-size: ", ";\n\n    word-break: break-word;\n  }\n\n  pre {\n    font-family: ", ";\n    white-space:", ";\n    background-color: #E6E6E6;\n    border-radius: 4px;\n    color: white;\n    padding: 12px 14px 15px 14px;\n    overflow-x: auto;\n    line-height: normal;\n    border: 1px solid #DBDBDB;\n\n    code {\n      background-color: transparent;\n      color: ", ";\n      padding: 0;\n\n      &:before,\n      &:after {\n        content: none;\n      }\n    }\n  }\n\n  blockquote {\n    margin: 2em 0 1em 0;\n    padding: 0 15px 15px 15px;\n    color: #0E5FC2;\n    border-radius: 4px;\n    border: 1px solid #0E5FC2;\n    background-color: #dbe5f1;\n    font-size: 13px;\n  }\n\n  img {\n    max-width: 100%;\n    box-sizing: content-box;\n  }\n\n  ul,\n  ol {\n    padding-left: 2em;\n    margin: 0;\n    margin-bottom: 1em;\n    // > li {\n    //   margin: 0.5em 0;\n    // }\n  }\n\n  table {\n    width: 100%;\n    overflow: auto;\n    word-break: normal;\n    word-break: keep-all;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin-top: 1.5em;\n    margin-bottom: 1.5em;\n    max-width: 800px;\n  }\n\n  table tr {\n    background-color: #fff;\n    border-top: 1px solid #ccc;\n\n    &:nth-child(2n) {\n      background-color: #f8f8f8;\n    }\n  }\n\n  table th,\n  table td {\n    padding: 6px 13px;\n    border: 1px solid #ddd;\n  }\n\n  table th {\n    text-align: center;\n    font-weight: bold;\n  }\n\n  ", ";\n\n  ", "\n\n  ", ";\n"], ["\n\n  font-family: ", ";\n  font-weight: ", ";\n  line-height: ", ";\n\n  p {\n    &:last-child {\n      margin-bottom: 0;\n    }\n  }\n\n  ",
+var StyledMarkdownBlock = withProps(styled_components(PrismDiv))(styled_elements_templateObject_1 || (styled_elements_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n\n  font-family: ", ";\n  font-weight: ", ";\n  line-height: ", ";\n\n  p {\n    &:last-child {\n      margin-bottom: 0;\n    }\n  }\n\n  ", "\n\n  ", "\n\n  h1 {\n    ", ";\n    color: ", ";\n    margin-top: 0;\n  }\n\n  h2 {\n    ", ";\n    color: ", ";\n  }\n\n  code {\n    color: ", ";\n    background-color: ", ";\n    font-family: ", ";\n    padding: 0.1em 0.25em 0.2em;\n    font-size: ", ";\n\n    word-break: break-word;\n  }\n\n  pre {\n    font-family: ", ";\n    white-space:", ";\n    background-color: #E6E6E6;\n    border-radius: 4px;\n    color: white;\n    padding: 12px 14px 15px 14px;\n    overflow-x: auto;\n    line-height: normal;\n    border: 1px solid #DBDBDB;\n\n    code {\n      background-color: transparent;\n      color: ", ";\n      padding: 0;\n\n      &:before,\n      &:after {\n        content: none;\n      }\n    }\n  }\n\n  blockquote {\n    margin: 2em 0 1em 0;\n    padding: 0 15px 15px 15px;\n    color: #0E5FC2;\n    border-radius: 4px;\n    border: 1px solid #0E5FC2;\n    background-color: #dbe5f1;\n    font-size: 13px;\n  }\n\n  img {\n    max-width: 100%;\n    box-sizing: content-box;\n  }\n\n  ul,\n  ol {\n    padding-left: 2em;\n    margin: 0;\n    margin-bottom: 1em;\n    // > li {\n    //   margin: 0.5em 0;\n    // }\n  }\n\n  table {\n    width: 100%;\n    overflow: auto;\n    word-break: normal;\n    word-break: keep-all;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin: 1.5em auto;\n    max-width: 800px;\n  }\n\n  table tr {\n    background-color: #fff;\n    border-top: 1px solid #ccc;\n\n    &:nth-child(2n) {\n      background-color: #f8f8f8;\n    }\n  }\n\n  table th,\n  table td {\n    padding: 6px 13px;\n    border: 1px solid #ddd;\n  }\n\n  table th {\n    text-align: center;\n    font-weight: bold;\n  }\n\n  ", ";\n\n  ", "\n\n  ", ";\n"], ["\n\n  font-family: ", ";\n  font-weight: ", ";\n  line-height: ", ";\n\n  p {\n    &:last-child {\n      margin-bottom: 0;\n    }\n  }\n\n  ",
     "\n\n  ",
     "\n\n  h1 {\n    ", ";\n    color: ", ";\n    margin-top: 0;\n  }\n\n  h2 {\n    ", ";\n    color: ", ";\n  }\n\n  code {\n    color: ",
     ";\n    background-color: ",
     ";\n    font-family: ", ";\n    padding: 0.1em 0.25em 0.2em;\n    font-size: ", ";\n\n    word-break: break-word;\n  }\n\n  pre {\n    font-family: ", ";\n    white-space:",
     ";\n    background-color: #E6E6E6;\n    border-radius: 4px;\n    color: white;\n    padding: 12px 14px 15px 14px;\n    overflow-x: auto;\n    line-height: normal;\n    border: 1px solid #DBDBDB;\n\n    code {\n      background-color: transparent;\n      color: ",
-    ";\n      padding: 0;\n\n      &:before,\n      &:after {\n        content: none;\n      }\n    }\n  }\n\n  blockquote {\n    margin: 2em 0 1em 0;\n    padding: 0 15px 15px 15px;\n    color: #0E5FC2;\n    border-radius: 4px;\n    border: 1px solid #0E5FC2;\n    background-color: #dbe5f1;\n    font-size: 13px;\n  }\n\n  img {\n    max-width: 100%;\n    box-sizing: content-box;\n  }\n\n  ul,\n  ol {\n    padding-left: 2em;\n    margin: 0;\n    margin-bottom: 1em;\n    // > li {\n    //   margin: 0.5em 0;\n    // }\n  }\n\n  table {\n    width: 100%;\n    overflow: auto;\n    word-break: normal;\n    word-break: keep-all;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin-top: 1.5em;\n    margin-bottom: 1.5em;\n    max-width: 800px;\n  }\n\n  table tr {\n    background-color: #fff;\n    border-top: 1px solid #ccc;\n\n    &:nth-child(2n) {\n      background-color: #f8f8f8;\n    }\n  }\n\n  table th,\n  table td {\n    padding: 6px 13px;\n    border: 1px solid #ddd;\n  }\n\n  table th {\n    text-align: center;\n    font-weight: bold;\n  }\n\n  ", ";\n\n  ", "\n\n  ", ";\n"])), function (props) { return props.theme.typography.fontFamily; }, function (props) { return props.theme.typography.fontWeightRegular; }, function (props) { return props.theme.typography.lineHeight; }, function (_a) {
+    ";\n      padding: 0;\n\n      &:before,\n      &:after {\n        content: none;\n      }\n    }\n  }\n\n  blockquote {\n    margin: 2em 0 1em 0;\n    padding: 0 15px 15px 15px;\n    color: #0E5FC2;\n    border-radius: 4px;\n    border: 1px solid #0E5FC2;\n    background-color: #dbe5f1;\n    font-size: 13px;\n  }\n\n  img {\n    max-width: 100%;\n    box-sizing: content-box;\n  }\n\n  ul,\n  ol {\n    padding-left: 2em;\n    margin: 0;\n    margin-bottom: 1em;\n    // > li {\n    //   margin: 0.5em 0;\n    // }\n  }\n\n  table {\n    width: 100%;\n    overflow: auto;\n    word-break: normal;\n    word-break: keep-all;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin: 1.5em auto;\n    max-width: 800px;\n  }\n\n  table tr {\n    background-color: #fff;\n    border-top: 1px solid #ccc;\n\n    &:nth-child(2n) {\n      background-color: #f8f8f8;\n    }\n  }\n\n  table th,\n  table td {\n    padding: 6px 13px;\n    border: 1px solid #ddd;\n  }\n\n  table th {\n    text-align: center;\n    font-weight: bold;\n  }\n\n  ", ";\n\n  ", "\n\n  ", ";\n"])), function (props) { return props.theme.typography.fontFamily; }, function (props) { return props.theme.typography.fontWeightRegular; }, function (props) { return props.theme.typography.lineHeight; }, function (_a) {
     var compact = _a.compact;
     return compact && "\n    p:first-child {\n      margin-top: 0;\n    }\n    p:last-child {\n      margin-bottom: 0;\n    }\n  ";
 }, function (_a) {
@@ -7485,7 +7485,7 @@ var SecuritySchemes_OAuthFlow = /** @class */ (function (_super) {
                     flow.refreshUrl),
                 external_react_["createElement"]("div", null,
                     external_react_["createElement"]("strong", null, " Scopes: ")),
-                external_react_["createElement"]("ul", null, Object.keys(flow.scopes).map(function (scope) { return external_react_["createElement"]("li", { key: scope },
+                external_react_["createElement"]("ul", null, Object.keys(flow.scopes).map(function (scope, index) { return external_react_["createElement"]("li", { key: "oauth-flow-li-" + index + "-" + scope },
                     external_react_["createElement"]("code", null, scope),
                     " - ",
                     external_react_["createElement"](Markdown_Markdown, { inline: true, source: flow.scopes[scope] || '' })); }))));
@@ -7978,11 +7978,11 @@ var AdvancedMarkdown_AdvancedMarkdown = /** @class */ (function (_super) {
         }
         return parts.map(function (part, idx) {
             if (typeof part === 'string') {
-                return external_react_["cloneElement"](htmlWrap(external_react_["createElement"](SanitizedMarkdownHTML, { html: part, inline: false, compact: false })), {
+                return external_react_["cloneElement"](htmlWrap(external_react_["createElement"](SanitizedMarkdownHTML, { key: "sanitize-markdown-" + idx, html: part, inline: false, compact: false })), {
                     key: idx
                 });
             }
-            return external_react_["createElement"](part.component, external_tslib_["__assign"]({ key: idx }, external_tslib_["__assign"]({}, part.props, part.propsSelector(store))));
+            return external_react_["createElement"](part.component, external_tslib_["__assign"]({ key: "part-component-" + idx }, external_tslib_["__assign"]({}, part.props, part.propsSelector(store))));
         });
     };
     return AdvancedMarkdown;
@@ -8015,11 +8015,11 @@ var SecurityRequirement_SecurityRequirement = /** @class */ (function (_super) {
     }
     SecurityRequirement.prototype.render = function () {
         var security = this.props.security;
-        return external_react_["createElement"](SecurityRequirementOrWrap, null, security.schemes.map(function (scheme) {
-            return external_react_["createElement"](SecurityRequirementAndWrap, { key: scheme.id },
+        return external_react_["createElement"](SecurityRequirementOrWrap, null, security.schemes.map(function (scheme, index) {
+            return external_react_["createElement"](SecurityRequirementAndWrap, { key: "sec-req-" + index + "-" + scheme.id },
                 external_react_["createElement"](linkify_Link, { to: scheme.sectionId }, scheme.id),
                 scheme.scopes.length > 0 && ' (',
-                scheme.scopes.map(function (scope) { return external_react_["createElement"](ScopeName, { key: scope }, scope); }),
+                scheme.scopes.map(function (scope, index) { return external_react_["createElement"](ScopeName, { key: "scone-name-" + index + "-" + scope }, scope); }),
                 scheme.scopes.length > 0 && ') ');
         }));
     };
@@ -8051,7 +8051,7 @@ var SecurityRequirement_SecurityRequirements = /** @class */ (function (_super) 
         return external_react_["createElement"](SecurityRequirement_Wrap, null,
             external_react_["createElement"](AuthHeaderColumn, null,
                 external_react_["createElement"](AuthHeader, null, "Authorizations: ")),
-            external_react_["createElement"](SecuritiesColumn, null, securities.map(function (security, idx) { return external_react_["createElement"](SecurityRequirement_SecurityRequirement, { key: idx, security: security }); })));
+            external_react_["createElement"](SecuritiesColumn, null, securities.map(function (security, idx) { return external_react_["createElement"](SecurityRequirement_SecurityRequirement, { key: "recurity-req-" + idx, security: security }); })));
     };
     return SecurityRequirements;
 }(external_react_["PureComponent"]));
@@ -8136,7 +8136,7 @@ var Endpoint_Endpoint = /** @class */ (function (_super) {
                 external_react_["createElement"](ShelfIcon, { float: 'right', color: inverted ? 'black' : 'white', size: '20px', direction: expanded ? 'up' : 'down', style: {
                         marginRight: '-25px'
                     } })),
-            external_react_["createElement"](ServersOverlay, { expanded: expanded }, operation.servers.map(function (server) { return external_react_["createElement"](ServerItem, { key: server.url },
+            external_react_["createElement"](ServersOverlay, { expanded: expanded }, operation.servers.map(function (server, index) { return external_react_["createElement"](ServerItem, { key: "server-item-" + index + "-" + server.url },
                 external_react_["createElement"]("div", null, server.description),
                 external_react_["createElement"](SelectOnClick_SelectOnClick, null,
                     external_react_["createElement"](ServerUrl, null,
@@ -8261,7 +8261,7 @@ var Extensions_Extensions = /** @class */ (function (_super) {
     }
     Extensions.prototype.render = function () {
         var _this = this;
-        return external_react_["createElement"](OptionsContext.Consumer, null, function (options) { return external_react_["createElement"](external_react_["Fragment"], null, options.showExtensions && Object.keys(_this.props.extensions).map(function (key) { return external_react_["createElement"](Extension, { key: key },
+        return external_react_["createElement"](OptionsContext.Consumer, null, function (options) { return external_react_["createElement"](external_react_["Fragment"], null, options.showExtensions && Object.keys(_this.props.extensions).map(function (key, index) { return external_react_["createElement"](Extension, { key: "extension-" + index + "-" + key },
             external_react_["createElement"](ExtensionLable, null, key),
             ":",
             ' ',
@@ -8286,7 +8286,7 @@ var FieldContstraints_ConstraintsView = /** @class */ (function (_super) {
         }
         return external_react_["createElement"]("span", null,
             ' ',
-            this.props.constraints.map(function (constraint) { return external_react_["createElement"](ConstraintItem, { key: constraint },
+            this.props.constraints.map(function (constraint, index) { return external_react_["createElement"](ConstraintItem, { key: "constraint-item-" + index + "-" + constraint },
                 " ",
                 constraint,
                 " "); }));
@@ -8535,7 +8535,7 @@ var OneOfSchema_OneOfSchema = /** @class */ (function (_super) {
                 " ",
                 schema.oneOfType,
                 " "),
-            external_react_["createElement"](OneOfList, null, oneOf.map(function (subSchema, idx) { return external_react_["createElement"](OneOfSchema_OneOfButton, { key: subSchema.pointer, schema: schema, subSchema: subSchema, idx: idx }); })),
+            external_react_["createElement"](OneOfList, null, oneOf.map(function (subSchema, idx) { return external_react_["createElement"](OneOfSchema_OneOfButton, { key: "one-of-button-" + idx + "-" + subSchema.pointer, schema: schema, subSchema: subSchema, idx: idx }); })),
             external_react_["createElement"](Schema_Schema, external_tslib_["__assign"]({}, this.props, { schema: oneOf[schema.activeOneOf] })));
     };
     OneOfSchema = external_tslib_["__decorate"]([
@@ -8777,7 +8777,7 @@ var Parameters_Parameters = /** @class */ (function (_super) {
         var paramsPlaces = parameters.length > 0 ? PARAM_PLACES : [];
         var bodyContent = body && body.content;
         return external_react_["createElement"]("div", null,
-            paramsPlaces.map(function (place) { return external_react_["createElement"](ParametersGroup_ParametersGroup, { key: place, place: place, parameters: paramsMap[place] }); }),
+            paramsPlaces.map(function (place, index) { return external_react_["createElement"](ParametersGroup_ParametersGroup, { key: "parameter-group-" + index + "-" + place, place: place, parameters: paramsMap[place] }); }),
             bodyContent && external_react_["createElement"](BodyContent, { content: bodyContent }));
     };
     return Parameters;
@@ -9140,11 +9140,11 @@ var MediaTypeSamples_MediaTypeSamples = /** @class */ (function (_super) {
         }
         if (examplesNames.length > 1) {
             return external_react_["createElement"](SmallTabs, null,
-                external_react_["createElement"](external_react_tabs_["TabList"], null, examplesNames.map(function (name) { return external_react_["createElement"](external_react_tabs_["Tab"], { key: name },
+                external_react_["createElement"](external_react_tabs_["TabList"], null, examplesNames.map(function (name, index) { return external_react_["createElement"](external_react_tabs_["Tab"], { key: "tab-" + index + "-" + name },
                     " ",
                     examples[name].summary || name,
                     " "); })),
-                examplesNames.map(function (name) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: name }, sampleView(examples[name].value)); }));
+                examplesNames.map(function (name, index) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: "tab-" + index + "-" + name }, sampleView(examples[name].value)); }));
         }
         else {
             var name_1 = examplesNames[0];
@@ -9211,11 +9211,11 @@ var RequestSamples_RequestSamples = /** @class */ (function (_super) {
             external_react_["createElement"](Tabs, { defaultIndex: 0 },
                 external_react_["createElement"](external_react_tabs_["TabList"], null,
                     hasBodySample && external_react_["createElement"](external_react_tabs_["Tab"], { key: "payload" }, " Payload "),
-                    samples.map(function (sample) { return external_react_["createElement"](external_react_tabs_["Tab"], { key: sample.lang }, sample.label !== undefined ? sample.label : sample.lang); })),
+                    samples.map(function (sample, index) { return external_react_["createElement"](external_react_tabs_["Tab"], { key: "tab-" + index + "-" + sample.lang }, sample.label !== undefined ? sample.label : sample.lang); })),
                 hasBodySample && external_react_["createElement"](external_react_tabs_["TabPanel"], { key: "payload" },
                     external_react_["createElement"]("div", null,
                         external_react_["createElement"](PayloadSamples_PayloadSamples, { content: requestBodyContent }))),
-                samples.map(function (sample) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: sample.lang },
+                samples.map(function (sample, index) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: "tab-" + index + "-" + sample.lang },
                     external_react_["createElement"](SourceCode_SourceCodeWithCopy, { lang: sample.lang, source: sample.source })); }))) || null;
     };
     RequestSamples = external_tslib_["__decorate"]([
@@ -9378,8 +9378,8 @@ var ResponsesList_ResponsesList = /** @class */ (function (_super) {
         return external_react_["createElement"](ResponseContainer, null,
             external_react_["createElement"](ResponsesHeader, null, " Responses "),
             external_react_["createElement"](Markdown_Markdown, { source: description }),
-            responses.map(function (response) {
-                return external_react_["createElement"](Response_ResponseView, { key: response.code, response: response });
+            responses.map(function (response, index) {
+                return external_react_["createElement"](Response_ResponseView, { key: "response-view-" + index + "-" + response.code, response: response });
             }));
     };
     return ResponsesList;
@@ -9407,8 +9407,8 @@ var ResponseSamples_ResponseSamples = /** @class */ (function (_super) {
                 " Response samples $",
                 external_react_["createElement"](Blinker, null, "_")),
             external_react_["createElement"](Tabs, { defaultIndex: 0 },
-                external_react_["createElement"](external_react_tabs_["TabList"], null, responses.map(function (response) { return external_react_["createElement"](external_react_tabs_["Tab"], { className: 'tab-' + response.type, key: response.code }, response.code); })),
-                responses.map(function (response) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: response.code },
+                external_react_["createElement"](external_react_tabs_["TabList"], null, responses.map(function (response, index) { return external_react_["createElement"](external_react_tabs_["Tab"], { key: "tab-" + index + "-" + response.code, className: 'tab-' + response.type }, response.code); })),
+                responses.map(function (response, index) { return external_react_["createElement"](external_react_tabs_["TabPanel"], { key: "tab-" + index + "-" + response.code },
                     external_react_["createElement"]("div", null,
                         external_react_["createElement"](PayloadSamples_PayloadSamples, { content: response.content }))); }))) || null;
     };
@@ -9502,7 +9502,7 @@ var ContentItems_ContentItems = /** @class */ (function (_super) {
         if (items.length === 0) {
             return null;
         }
-        return items.map(function (item) { return external_react_["createElement"](ContentItems_ContentItem, { item: item, key: item.id }); });
+        return items.map(function (item, index) { return external_react_["createElement"](ContentItems_ContentItem, { item: item, key: "content-item-" + index + "-" + item.id }); });
     };
     ContentItems = external_tslib_["__decorate"]([
         external_mobx_react_["observer"]
@@ -9895,7 +9895,7 @@ var RedocWrap = styled_components.div.withConfig({
 });
 var ApiContentWrap = styled_components.div.withConfig({
     componentId: "sc-13p9gjn-1"
-})(["z-index:1;position:relative;overflow-y:auto;width:calc(100% - ", ");", ";contain:layout;"], function (props) { return props.theme.menu.width; }, media.lessThan('small', true)(Redoc_styled_elements_templateObject_1 || (Redoc_styled_elements_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n    width: 100%;\n  "], ["\n    width: 100%;\n  "]))));
+})(["z-index:1;position:relative;overflow-y:auto;width:calc(100%);", ";contain:layout;"], media.lessThan('small', true)(Redoc_styled_elements_templateObject_1 || (Redoc_styled_elements_templateObject_1 = external_tslib_["__makeTemplateObject"](["\n    width: 100%;\n  "], ["\n    width: 100%;\n  "]))));
 var BackgroundStub = styled_components.div.withConfig({
     componentId: "sc-13p9gjn-2"
 })(["background:", ";position:absolute;top:0;bottom:0;right:0;width:calc((100% - ", ") * 0.4);", ";"], function (_a) {
@@ -10034,7 +10034,7 @@ var SearchBox_SearchBox = /** @class */ (function (_super) {
                         active: {
                             value: idx === activeItemIdx
                         }
-                    }), onActivate: _this.props.onActivate, withoutChildren: true, key: res.item.id, "data-role": "search:result" }); }))));
+                    }), onActivate: _this.props.onActivate, withoutChildren: true, key: "menu-item-" + idx + "-" + res.item.id, "data-role": "search:result" }); }))));
     };
     return SearchBox;
 }(external_react_["PureComponent"]));
