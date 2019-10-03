@@ -6085,7 +6085,7 @@ var Field_FieldModel = /** @class */ (function () {
         this.name = infoOrRef.name || info.name;
         this.in = info.in;
         this.required = !!info.required;
-        this.conditional = !!info.conditional;
+        this.conditional = info.conditional;
         this.schema = new Schema_SchemaModel(parser, info.schema || {}, pointer, options);
         this.description = info.description === undefined ? this.schema.description || '' : info.description;
         this.example = info.example || this.schema.example;
