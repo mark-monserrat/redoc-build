@@ -85,6 +85,7 @@ export interface OpenAPIParameter {
   in?: OpenAPIParameterLocation;
   description?: string;
   required?: boolean;
+  conditional?: boolean;
   deprecated?: boolean;
   allowEmptyValue?: boolean;
   style?: OpenAPIParameterStyle;

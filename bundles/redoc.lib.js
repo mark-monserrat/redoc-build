@@ -4454,7 +4454,7 @@ var ErrorBoundary_ErrorBoundary = /** @class */ (function (_super) {
                 external_react_["createElement"]("br", null),
                 external_react_["createElement"]("small", null,
                     " Commit: ",
-                    "78bf418"));
+                    "6eaccf3"));
         }
         return external_react_["Children"].only(this.props.children);
     };
@@ -6085,6 +6085,7 @@ var Field_FieldModel = /** @class */ (function () {
         this.name = infoOrRef.name || info.name;
         this.in = info.in;
         this.required = !!info.required;
+        this.conditional = !!info.conditional;
         this.schema = new Schema_SchemaModel(parser, info.schema || {}, pointer, options);
         this.description = info.description === undefined ? this.schema.description || '' : info.description;
         this.example = info.example || this.schema.example;
